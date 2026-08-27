@@ -1,4 +1,10 @@
 {
+  "name": "pharmcure-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd Frontend && npm install && npm run build",
+    "start": "cd Frontend && npm start"
+  },
   "dependencies": {
     "mongodb": "^7.0.0"
   }
