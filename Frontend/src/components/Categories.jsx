@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Papa from 'papaparse';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../cartSlice';

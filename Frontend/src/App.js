@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 import HeroBanner from './components/HeroBanner';
 import Categories from './components/Categories';
 import SaltFinder from './components/SaltFinder';
-import GenericMedicineInfo from './components/GenericMedicineInfo';
 import FeaturedProducts from './components/FeaturedProducts';
 import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';

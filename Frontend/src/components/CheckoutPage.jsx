@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { clearCartAsync, clearCart } from "../cartSlice";
+import { clearCartAsync } from "../cartSlice";
 import { createOrder, buyNow } from "../api";
 import { useAuth } from "./AuthContext";
 import useToast from "./useToast";
