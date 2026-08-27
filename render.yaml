@@ -2,10 +2,8 @@ services:
   # Spring Boot Backend Service
   - type: web
     name: pharmcure-backend
-    env: java
-    rootDir: Backend
-    buildCommand: mvn clean package -DskipTests
-    startCommand: java -jar target/backend-0.0.1-SNAPSHOT.jar
+    env: docker
+    dockerfilePath: ./Backend/Dockerfile
     envVars:
       - key: PORT
         value: 8080
